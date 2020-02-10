@@ -33,7 +33,6 @@ class Song
      genre_counter[g] = counter
      if genre_counter.has_key?(g)
        counter += 1 
-       genre_counter[g] = counter
     end
   end
   genre_counter
