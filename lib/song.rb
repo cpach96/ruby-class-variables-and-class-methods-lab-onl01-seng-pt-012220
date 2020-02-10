@@ -31,7 +31,7 @@ class Song
     genre_counter = {}
     @@genres.each do |g|
      genre_counter[g] = counter
-     if genre_counter[g].value? == g
+     if genre_counter[g].include? == g
        counter += 1 
        genre_counter[g] = counter
     end
